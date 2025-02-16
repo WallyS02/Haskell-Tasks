@@ -1,5 +1,5 @@
 # JP-Haskell-Project
-3 shared tasks solved in Haskell.
+3 mathematical tasks solved in Haskell.
 
 ## Polish instructions
 9) Podwójny pandigital rozmiaru n to liczba w której skład wchodzą cyfry od 0 do n dokładnie 2 razy
@@ -17,16 +17,16 @@ zapisać jako sumę kwadratów kolejnych liczb naturalnych.
 pozwala przekształcić dowolne drzewo na unikalną sekwencję liczb.
 Zaimplementować funkcję dekodującą kod Prüfer’a (lista liczb) na drzewo binarne podane w postaci
 ciągu krawędzi (lista par liczb):
-prufer_decode([])
-[(1, 2)]
-prufer_decode([1])
-[(1, 2), (1, 3)]
-prufer_decode([2])
-[(1, 2), (2, 3)]
-prufer_decode([3])
-[(1, 3), (2, 3)]
-prufer_decode([4, 4])
-[(1, 4), (2, 4), (3, 4)]
+- prufer_decode([])
+- [(1, 2)]
+- prufer_decode([1])
+- [(1, 2), (1, 3)]
+- prufer_decode([2])
+- [(1, 2), (2, 3)]
+- prufer_decode([3])
+- [(1, 3), (2, 3)]
+- prufer_decode([4, 4])
+- [(1, 4), (2, 4), (3, 4)]
 
 ## English instructions
 9) A double pandigital of size n is a number that consists of the digits 0 through n exactly twice (zero cannot be in the highest position). For example, 5046170132637542 is a double pandigital of size 7. For the given natural numbers 0 ≤ n ≤ F, find the largest double pandigital of size n. The solution cannot be based on simply encoding all 17 possible n.
@@ -37,16 +37,16 @@ For a given n, print all palindromes less than n that we can write as the sum of
 
 34) Prüfer code
 allows to transform any tree into a unique sequence of numbers. Implement a function that decodes a Prüfer code (a list of numbers) into a binary tree given as a sequence of edges (a list of pairs of numbers):
-prufer_decode([])
-[(1, 2)]
-prufer_decode([1])
-[(1, 2), (1, 3)]
-prufer_decode([2])
-[(1, 2), (2, 3)]
-prufer_decode([3])
-[(1, 3), (2, 3)]
-prufer_decode([4, 4])
-[(1, 4), (2, 4), (3, 4)]
+- prufer_decode([])
+- [(1, 2)]
+- prufer_decode([1])
+- [(1, 2), (1, 3)]
+- prufer_decode([2])
+- [(1, 2), (2, 3)]
+- prufer_decode([3])
+- [(1, 3), (2, 3)]
+- prufer_decode([4, 4])
+- [(1, 4), (2, 4), (3, 4)]
 
 ## Authors
 - Maciej Krzyżanowski
